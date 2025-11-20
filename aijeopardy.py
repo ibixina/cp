@@ -4,7 +4,7 @@ X = int(input())
 
 if X == 1:
     print("0 0")
-    sys.exit(0)
+    exit()
 
 def cmp_binom(n: int, k: int, X: int) -> int:
     res = 1
